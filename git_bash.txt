@@ -35,3 +35,20 @@ git branch --delete cabangAplikasi
 Kembali ke commit sebelumnya
 git reset kode_angka_commit
 git reset --hard
+
+
+
+
+echo "# edelweiss.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kodebiner/edelweiss.github.io.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/kodebiner/edelweiss.github.io.git
+git branch -M main
+git push -u origin main
